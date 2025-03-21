@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>latihan table zebra</title>
+    <title>Document</title>
     <style>
+        tr:nth-child(even) {
+            text-align: left;
+            padding: 8px;
+         }
+         tr:nth-child(even) {
+            background-color: aquamarine;
+         }
         th:nth-child(even),
         td:nth-child(even) {
-            background-color: khaki;
+            background-color: aquamarine;
         }
     </style>
 </head>
@@ -17,13 +24,13 @@
 
     <table style="width: 100%;border-collapse: collapse;" border="1">
         <tr>
-            <th>MON</th>
-            <th>TUES</th>
-            <th>WED</th>
-            <th>THURS</th>
-            <th>FRI</th>
-            <th>SAT</th>
-            <th>SUN</th>
+            <th width="10%" style="text-align: center;">MON</th>
+            <th width="10%" style="text-align: center;">TUES</th>
+            <th width="10%" style="text-align: center;" >WED</th>
+            <th width="10%" style="text-align: center;">THURS</th>
+            <th width="10%" style="text-align: center;">FRI</th>
+            <th width="10%" style="text-align: center;">SAT</th>
+            <th width="10%" style="text-align: center;">SUN</th>
         </tr>
         <tr>
             <td>1</td>
@@ -51,6 +58,15 @@
             <td>17</td>
             <td>18</td>
             <td>19</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
         </tr>
     </table>
 </body>
